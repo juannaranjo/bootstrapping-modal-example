@@ -1,0 +1,40 @@
+body {
+    background-color: #000;
+}
+#main-wrapper{
+    width: 80%;
+    margin: 5% auto;
+}
+.main-images{
+    width: 30%;
+    margin: 4%;
+    cursor: pointer;
+}
+.main-images:last-child{
+    float: right;
+}
+#modal{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 75%;
+    background-color: #fff;
+   
+}
+#modal-close-button{
+    float: right;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+#modal img {
+    margin: 0 25%;
+    width: 50%;
+    height: 75%;
+}
